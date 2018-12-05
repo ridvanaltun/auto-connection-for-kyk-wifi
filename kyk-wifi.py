@@ -30,7 +30,6 @@ def status(page):
 
 		else:
 			print("Not Found, probably wrong page!")
-			print(page.text)
 			sys.exit()
 
 	else:
