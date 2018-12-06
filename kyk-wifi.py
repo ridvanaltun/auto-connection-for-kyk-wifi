@@ -9,9 +9,6 @@ password = 'YOUR-PASSWORD'
 
 url = 'https://wifi.kyk.gov.tr/'
 
-if __name__ == "__main__":
-	main()
-
 def status(page):
 
 	if page.status_code == 200:
@@ -116,3 +113,7 @@ def logout():
 def main():
 	#login(username,password)
 	#logout()
+	pass
+
+if __name__ == "__main__":
+	main()
